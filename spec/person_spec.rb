@@ -51,7 +51,7 @@ describe Person do
       expect(avi.wrist_size).to eq(avi_attributes[:wrist_size])
       expect(avi.glove_size).to eq(avi_attributes[:glove_size])
       expect(avi.pant_length).to eq(avi_attributes[:pant_length])
-      expect(avi.pant_width).to eq(avi_attributes[:pant_width])
+      'expect(avi.pant_width).to eq(avi_attributes[:pant_width])
     end
   end
 
