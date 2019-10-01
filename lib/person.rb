@@ -11,6 +11,9 @@
     end
   end  
 end
+
+
+# Your initialize method should use iteration and the .send method to mass assign the value of each key/value pair to its associated key (i.e. method). Refer to the previous reading to help you solve this one.
 # Calling sort on a hash converts it into nested arrays and then sorts them by key, so all you need is this:
 
 # puts h.sort.map {|k,v| ["#{k}----"] + v}
